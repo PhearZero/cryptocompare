@@ -110,6 +110,7 @@ function dateToTimestamp (date) {
 }
 
 module.exports = {
+  coinList,
   price,
   priceMulti,
   priceFull,
