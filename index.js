@@ -12,7 +12,7 @@ function fetchJSON (url) {
     })
 }
 function coinList(){
-  return fetchJSON('https://www.cryptocompare.com/api/data/coinlist')
+  return fetchJSON(`${baseUrl}all/coinlist`)
 }
 function price (fsym, tsyms, options) {
   options = options || {}
